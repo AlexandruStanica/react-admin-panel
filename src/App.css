@@ -1,8 +1,41 @@
 /* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
 .app {
-  min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 .app h1 {
-  margin-top: 0;
+    margin-top: 0;
+}
+
+.background-color-input,
+.text-color-input {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button-small {
+    margin: 10px;
+    background-color: #e26c67;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.button-small:focus {
+    outline: none;
+}
+
+.center {
+    text-align: center;
 }

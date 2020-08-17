@@ -5,8 +5,20 @@ h2 {
 .user-add-form {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.user-add-form input {
-    max-width: 50%;
+.user-add-form input[type="submit"] {
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+    background: #e26c67;
+}
+
+.user-add-form input[type="submit"]:focus {
+    outline: none;
 }
