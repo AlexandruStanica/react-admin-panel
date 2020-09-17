@@ -2,7 +2,7 @@
 
 ## Rularea proiectului
 
-#### 1. `git clone https://github.com/razvancir96/react-admin-panel.git`
+#### 1. `git clone https://github.com/AlexandruStanica/react-admin-panel.git`
 
 #### 2. `cd react-admin-panel`
 
